@@ -1,0 +1,1393 @@
+ssh://wlx@192.168.31.245:22/home/wlx/anaconda3/envs/wlx/bin/python -u /home/wlx/Projects/Render_for_CNN/train.py --model r4cnn --dataset pascal
+#############  Read in Database   ##############
+csv file length:  5910
+Dataset loaded in  0.010765314102172852  secs.
+Dataset size:  5910
+csv file length:  5788
+Dataset loaded in  0.00873565673828125  secs.
+Dataset size:  5788
+#############  Initiate Model     ##############
+Time to initialize take:  6.153581380844116
+#############  Start Training     ##############
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [78.37 69.3  61.7  88.68 88.61 77.79 74.84 71.43 76.11 82.4  76.53 82.17]  -- mean :  77.33
+total     :  [78.37 69.3  61.7  88.68 88.61 77.79 74.84 71.43 76.11 82.4  76.53 82.17]  -- mean :  77.33
+
+Median Error
+mean      :  [10.84 15.34 18.52  8.27  5.18  8.11 13.59 10.83 15.09 13.29  8.25 14.3 ]  -- mean :  11.8
+total     :  [10.84 15.34 18.52  8.27  5.18  8.11 13.59 10.83 15.09 13.29  8.25 14.3 ]  -- mean :  11.8
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [78.369140625, 69.287109375, 61.71875, 88.671875, 88.623046875, 77.783203125, 74.853515625, 71.435546875, 76.123046875, 82.373046875, 76.513671875, 82.177734375]  ->  77.32747395833333  %
+Type Median   :  [10.844, 15.338, 18.524, 8.274, 5.179, 8.113, 13.593, 10.828, 15.085, 13.291, 8.25, 14.297]  ->  11.801  degrees
+Type Loss     :  [57.71610016875215, 48.73081077324165, 47.258719978751714]  ->  153.7056309207455
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [0/100] Step [10/92]: Training Loss = 153.22841
+Epoch [0/100] Step [20/92]: Training Loss = 153.57712
+Epoch [0/100] Step [30/92]: Training Loss = 152.44930
+Epoch [0/100] Step [40/92]: Training Loss = 152.59427
+Epoch [0/100] Step [50/92]: Training Loss = 152.35914
+Epoch [0/100] Step [60/92]: Training Loss = 151.94683
+Epoch [0/100] Step [70/92]: Training Loss = 151.72937
+Epoch [0/100] Step [80/92]: Training Loss = 151.61379
+Epoch [0/100] Step [90/92]: Training Loss = 151.73584
+Epoch [1/100] Step [10/92]: Training Loss = 143.91095
+Epoch [1/100] Step [20/92]: Training Loss = 144.01832
+Epoch [1/100] Step [30/92]: Training Loss = 143.41967
+Epoch [1/100] Step [40/92]: Training Loss = 143.06194
+Epoch [1/100] Step [50/92]: Training Loss = 143.30406
+Epoch [1/100] Step [60/92]: Training Loss = 143.08564
+Epoch [1/100] Step [70/92]: Training Loss = 142.93256
+Epoch [1/100] Step [80/92]: Training Loss = 143.07849
+Epoch [1/100] Step [90/92]: Training Loss = 143.14816
+Epoch [2/100] Step [10/92]: Training Loss = 135.92199
+Epoch [2/100] Step [20/92]: Training Loss = 135.85832
+Epoch [2/100] Step [30/92]: Training Loss = 135.55989
+Epoch [2/100] Step [40/92]: Training Loss = 135.51938
+Epoch [2/100] Step [50/92]: Training Loss = 135.52211
+Epoch [2/100] Step [60/92]: Training Loss = 135.53049
+Epoch [2/100] Step [70/92]: Training Loss = 135.66369
+Epoch [2/100] Step [80/92]: Training Loss = 135.92300
+Epoch [2/100] Step [90/92]: Training Loss = 135.89567
+Epoch [3/100] Step [10/92]: Training Loss = 129.87589
+Epoch [3/100] Step [20/92]: Training Loss = 129.61036
+Epoch [3/100] Step [30/92]: Training Loss = 129.46761
+Epoch [3/100] Step [40/92]: Training Loss = 129.34596
+Epoch [3/100] Step [50/92]: Training Loss = 129.33324
+Epoch [3/100] Step [60/92]: Training Loss = 129.36707
+Epoch [3/100] Step [70/92]: Training Loss = 129.52929
+Epoch [3/100] Step [80/92]: Training Loss = 129.77985
+Epoch [3/100] Step [90/92]: Training Loss = 129.81261
+Epoch [4/100] Step [10/92]: Training Loss = 124.25500
+Epoch [4/100] Step [20/92]: Training Loss = 124.64954
+Epoch [4/100] Step [30/92]: Training Loss = 124.91208
+Epoch [4/100] Step [40/92]: Training Loss = 124.88244
+Epoch [4/100] Step [50/92]: Training Loss = 124.99253
+Epoch [4/100] Step [60/92]: Training Loss = 125.00929
+Epoch [4/100] Step [70/92]: Training Loss = 124.97629
+Epoch [4/100] Step [80/92]: Training Loss = 124.99479
+Epoch [4/100] Step [90/92]: Training Loss = 125.02086
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [72.33 70.7  56.91 89.92 82.92 74.25 74.44 68.07 79.94 80.15 73.47 80.62]  -- mean :  75.31
+total     :  [72.33 70.7  56.91 89.92 82.92 74.25 74.44 68.07 79.94 80.15 73.47 80.62]  -- mean :  75.31
+
+Median Error
+mean      :  [13.15 17.08 22.42  8.27  5.02  7.94 13.5  11.41 13.83 12.31  8.16 12.08]  -- mean :  12.1
+total     :  [13.15 17.08 22.42  8.27  5.02  7.94 13.5  11.41 13.83 12.31  8.16 12.08]  -- mean :  12.1
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [72.314453125, 70.703125, 56.93359375, 89.94140625, 82.91015625, 74.267578125, 74.4140625, 68.06640625, 79.931640625, 80.126953125, 73.486328125, 80.615234375]  ->  75.30924479166667  %
+Type Median   :  [13.145, 17.082, 22.419, 8.274, 5.024, 7.942, 13.5, 11.411, 13.825, 12.305, 8.163, 12.078]  ->  12.097  degrees
+Type Loss     :  [58.97816894866608, 48.427862272157775, 44.21983945238721]  ->  151.62587067321107
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [5/100] Step [10/92]: Training Loss = 121.74782
+Epoch [5/100] Step [20/92]: Training Loss = 121.62057
+Epoch [5/100] Step [30/92]: Training Loss = 121.62401
+Epoch [5/100] Step [40/92]: Training Loss = 121.60749
+Epoch [5/100] Step [50/92]: Training Loss = 121.68430
+Epoch [5/100] Step [60/92]: Training Loss = 121.70458
+Epoch [5/100] Step [70/92]: Training Loss = 121.69614
+Epoch [5/100] Step [80/92]: Training Loss = 121.72421
+Epoch [5/100] Step [90/92]: Training Loss = 121.78700
+Epoch [6/100] Step [10/92]: Training Loss = 119.13803
+Epoch [6/100] Step [20/92]: Training Loss = 119.18526
+Epoch [6/100] Step [30/92]: Training Loss = 119.17303
+Epoch [6/100] Step [40/92]: Training Loss = 119.12081
+Epoch [6/100] Step [50/92]: Training Loss = 119.25528
+Epoch [6/100] Step [60/92]: Training Loss = 119.30984
+Epoch [6/100] Step [70/92]: Training Loss = 119.27417
+Epoch [6/100] Step [80/92]: Training Loss = 119.39454
+Epoch [6/100] Step [90/92]: Training Loss = 119.45830
+Epoch [7/100] Step [10/92]: Training Loss = 118.39460
+Epoch [7/100] Step [20/92]: Training Loss = 118.12237
+Epoch [7/100] Step [30/92]: Training Loss = 118.12994
+Epoch [7/100] Step [40/92]: Training Loss = 118.11753
+Epoch [7/100] Step [50/92]: Training Loss = 118.11301
+Epoch [7/100] Step [60/92]: Training Loss = 118.15883
+Epoch [7/100] Step [70/92]: Training Loss = 118.17527
+Epoch [7/100] Step [80/92]: Training Loss = 118.12445
+Epoch [7/100] Step [90/92]: Training Loss = 118.12392
+Epoch [8/100] Step [10/92]: Training Loss = 116.99753
+Epoch [8/100] Step [20/92]: Training Loss = 117.12600
+Epoch [8/100] Step [30/92]: Training Loss = 117.14146
+Epoch [8/100] Step [40/92]: Training Loss = 117.04094
+Epoch [8/100] Step [50/92]: Training Loss = 117.00070
+Epoch [8/100] Step [60/92]: Training Loss = 116.98891
+Epoch [8/100] Step [70/92]: Training Loss = 116.96768
+Epoch [8/100] Step [80/92]: Training Loss = 117.03631
+Epoch [8/100] Step [90/92]: Training Loss = 117.07232
+Epoch [9/100] Step [10/92]: Training Loss = 116.13066
+Epoch [9/100] Step [20/92]: Training Loss = 115.98483
+Epoch [9/100] Step [30/92]: Training Loss = 116.04710
+Epoch [9/100] Step [40/92]: Training Loss = 116.04717
+Epoch [9/100] Step [50/92]: Training Loss = 116.06299
+Epoch [9/100] Step [60/92]: Training Loss = 116.11781
+Epoch [9/100] Step [70/92]: Training Loss = 116.18011
+Epoch [9/100] Step [80/92]: Training Loss = 116.18514
+Epoch [9/100] Step [90/92]: Training Loss = 116.15845
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [74.65 67.89 54.79 90.08 80.78 75.43 73.39 70.59 76.7  80.9  72.45 80.1 ]  -- mean :  74.81
+total     :  [74.65 67.89 54.79 90.08 80.78 75.43 73.39 70.59 76.7  80.9  72.45 80.1 ]  -- mean :  74.81
+
+Median Error
+mean      :  [13.96 17.02 24.1   7.57  4.98  7.9  13.74 10.57 14.47 12.08  8.85 12.34]  -- mean :  12.3
+total     :  [13.96 17.02 24.1   7.57  4.98  7.9  13.74 10.57 14.47 12.08  8.85 12.34]  -- mean :  12.3
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [74.658203125, 67.87109375, 54.78515625, 90.087890625, 80.76171875, 75.439453125, 73.388671875, 70.60546875, 76.708984375, 80.908203125, 72.4609375, 80.126953125]  ->  74.81689453125  %
+Type Median   :  [13.961, 17.024, 24.103, 7.566, 4.98, 7.904, 13.742, 10.574, 14.474, 12.078, 8.848, 12.336]  ->  12.299  degrees
+Type Loss     :  [59.17613316630269, 48.599608452765494, 44.038190527276676]  ->  151.81393214634485
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [10/100] Step [10/92]: Training Loss = 115.02654
+Epoch [10/100] Step [20/92]: Training Loss = 115.12363
+Epoch [10/100] Step [30/92]: Training Loss = 115.22117
+Epoch [10/100] Step [40/92]: Training Loss = 115.29541
+Epoch [10/100] Step [50/92]: Training Loss = 115.34245
+Epoch [10/100] Step [60/92]: Training Loss = 115.35467
+Epoch [10/100] Step [70/92]: Training Loss = 115.38220
+Epoch [10/100] Step [80/92]: Training Loss = 115.39416
+Epoch [10/100] Step [90/92]: Training Loss = 115.45960
+Epoch [11/100] Step [10/92]: Training Loss = 114.87816
+Epoch [11/100] Step [20/92]: Training Loss = 114.81003
+Epoch [11/100] Step [30/92]: Training Loss = 114.88572
+Epoch [11/100] Step [40/92]: Training Loss = 114.88369
+Epoch [11/100] Step [50/92]: Training Loss = 114.91034
+Epoch [11/100] Step [60/92]: Training Loss = 114.93600
+Epoch [11/100] Step [70/92]: Training Loss = 114.95028
+Epoch [11/100] Step [80/92]: Training Loss = 115.01532
+Epoch [11/100] Step [90/92]: Training Loss = 115.04066
+Epoch [12/100] Step [10/92]: Training Loss = 114.52547
+Epoch [12/100] Step [20/92]: Training Loss = 114.53494
+Epoch [12/100] Step [30/92]: Training Loss = 114.55846
+Epoch [12/100] Step [40/92]: Training Loss = 114.59855
+Epoch [12/100] Step [50/92]: Training Loss = 114.64533
+Epoch [12/100] Step [60/92]: Training Loss = 114.69182
+Epoch [12/100] Step [70/92]: Training Loss = 114.73476
+Epoch [12/100] Step [80/92]: Training Loss = 114.75119
+Epoch [12/100] Step [90/92]: Training Loss = 114.75846
+Epoch [13/100] Step [10/92]: Training Loss = 114.26900
+Epoch [13/100] Step [20/92]: Training Loss = 114.27506
+Epoch [13/100] Step [30/92]: Training Loss = 114.35964
+Epoch [13/100] Step [40/92]: Training Loss = 114.46117
+Epoch [13/100] Step [50/92]: Training Loss = 114.42134
+Epoch [13/100] Step [60/92]: Training Loss = 114.42061
+Epoch [13/100] Step [70/92]: Training Loss = 114.41256
+Epoch [13/100] Step [80/92]: Training Loss = 114.41056
+Epoch [13/100] Step [90/92]: Training Loss = 114.41578
+Epoch [14/100] Step [10/92]: Training Loss = 113.89208
+Epoch [14/100] Step [20/92]: Training Loss = 113.90402
+Epoch [14/100] Step [30/92]: Training Loss = 113.99809
+Epoch [14/100] Step [40/92]: Training Loss = 114.00405
+Epoch [14/100] Step [50/92]: Training Loss = 113.97793
+Epoch [14/100] Step [60/92]: Training Loss = 114.00682
+Epoch [14/100] Step [70/92]: Training Loss = 114.00557
+Epoch [14/100] Step [80/92]: Training Loss = 114.01491
+Epoch [14/100] Step [90/92]: Training Loss = 114.03032
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [71.86 68.73 55.05 89.92 81.49 74.25 75.24 65.13 79.06 80.15 73.47 81.4 ]  -- mean :  74.65
+total     :  [71.86 68.73 55.05 89.92 81.49 74.25 75.24 65.13 79.06 80.15 73.47 81.4 ]  -- mean :  74.65
+
+Median Error
+mean      :  [14.58 17.23 25.16  8.06  4.54  8.06 13.29 11.36 15.01 11.59  9.43 12.02]  -- mean :  12.53
+total     :  [14.58 17.23 25.16  8.06  4.54  8.06 13.29 11.36 15.01 11.59  9.43 12.02]  -- mean :  12.53
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [71.875, 68.75, 55.029296875, 89.94140625, 81.494140625, 74.267578125, 75.244140625, 65.13671875, 79.052734375, 80.126953125, 73.486328125, 81.396484375]  ->  74.65006510416667  %
+Type Median   :  [14.583, 17.225, 25.161, 8.061, 4.538, 8.064, 13.292, 11.363, 15.013, 11.587, 9.429, 12.02]  ->  12.528  degrees
+Type Loss     :  [59.38265312110985, 48.54562545608688, 44.038749275626714]  ->  151.96702785282343
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [15/100] Step [10/92]: Training Loss = 113.82231
+Epoch [15/100] Step [20/92]: Training Loss = 113.84440
+Epoch [15/100] Step [30/92]: Training Loss = 113.84092
+Epoch [15/100] Step [40/92]: Training Loss = 113.85384
+Epoch [15/100] Step [50/92]: Training Loss = 113.83051
+Epoch [15/100] Step [60/92]: Training Loss = 113.81523
+Epoch [15/100] Step [70/92]: Training Loss = 113.81577
+Epoch [15/100] Step [80/92]: Training Loss = 113.85085
+Epoch [15/100] Step [90/92]: Training Loss = 113.85782
+Epoch [16/100] Step [10/92]: Training Loss = 113.56695
+Epoch [16/100] Step [20/92]: Training Loss = 113.62431
+Epoch [16/100] Step [30/92]: Training Loss = 113.57714
+Epoch [16/100] Step [40/92]: Training Loss = 113.56786
+Epoch [16/100] Step [50/92]: Training Loss = 113.59565
+Epoch [16/100] Step [60/92]: Training Loss = 113.61147
+Epoch [16/100] Step [70/92]: Training Loss = 113.60987
+Epoch [16/100] Step [80/92]: Training Loss = 113.62289
+Epoch [16/100] Step [90/92]: Training Loss = 113.61496
+Epoch [17/100] Step [10/92]: Training Loss = 113.56468
+Epoch [17/100] Step [20/92]: Training Loss = 113.45101
+Epoch [17/100] Step [30/92]: Training Loss = 113.41802
+Epoch [17/100] Step [40/92]: Training Loss = 113.36306
+Epoch [17/100] Step [50/92]: Training Loss = 113.35770
+Epoch [17/100] Step [60/92]: Training Loss = 113.37907
+Epoch [17/100] Step [70/92]: Training Loss = 113.38229
+Epoch [17/100] Step [80/92]: Training Loss = 113.39720
+Epoch [17/100] Step [90/92]: Training Loss = 113.41540
+Epoch [18/100] Step [10/92]: Training Loss = 113.18086
+Epoch [18/100] Step [20/92]: Training Loss = 113.18742
+Epoch [18/100] Step [30/92]: Training Loss = 113.22965
+Epoch [18/100] Step [40/92]: Training Loss = 113.29823
+Epoch [18/100] Step [50/92]: Training Loss = 113.30335
+Epoch [18/100] Step [60/92]: Training Loss = 113.34046
+Epoch [18/100] Step [70/92]: Training Loss = 113.29184
+Epoch [18/100] Step [80/92]: Training Loss = 113.26423
+Epoch [18/100] Step [90/92]: Training Loss = 113.28218
+Epoch [19/100] Step [10/92]: Training Loss = 112.95541
+Epoch [19/100] Step [20/92]: Training Loss = 112.95513
+Epoch [19/100] Step [30/92]: Training Loss = 112.89219
+Epoch [19/100] Step [40/92]: Training Loss = 112.96498
+Epoch [19/100] Step [50/92]: Training Loss = 112.97208
+Epoch [19/100] Step [60/92]: Training Loss = 112.99022
+Epoch [19/100] Step [70/92]: Training Loss = 113.01891
+Epoch [19/100] Step [80/92]: Training Loss = 113.04877
+Epoch [19/100] Step [90/92]: Training Loss = 113.08195
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [71.4  69.58 55.05 90.23 82.56 75.11 73.95 65.13 76.4  80.15 72.45 80.1 ]  -- mean :  74.34
+total     :  [71.4  69.58 55.05 90.23 82.56 75.11 73.95 65.13 76.4  80.15 72.45 80.1 ]  -- mean :  74.34
+
+Median Error
+mean      :  [15.71 16.45 24.57  7.9   4.67  7.9  13.74 11.48 15.26 12.87  8.76 11.82]  -- mean :  12.59
+total     :  [15.71 16.45 24.57  7.9   4.67  7.9  13.74 11.48 15.26 12.87  8.76 11.82]  -- mean :  12.59
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [71.38671875, 69.580078125, 55.029296875, 90.234375, 82.568359375, 75.09765625, 73.974609375, 65.13671875, 76.416015625, 80.126953125, 72.4609375, 80.126953125]  ->  74.34488932291667  %
+Type Median   :  [15.71, 16.454, 24.566, 7.903, 4.667, 7.898, 13.735, 11.483, 15.259, 12.872, 8.755, 11.815]  ->  12.593  degrees
+Type Loss     :  [59.500067742316276, 48.69057493943434, 44.115955436622706]  ->  152.30659811837333
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [20/100] Step [10/92]: Training Loss = 112.73212
+Epoch [20/100] Step [20/92]: Training Loss = 112.84295
+Epoch [20/100] Step [30/92]: Training Loss = 112.87627
+Epoch [20/100] Step [40/92]: Training Loss = 112.93059
+Epoch [20/100] Step [50/92]: Training Loss = 112.98008
+Epoch [20/100] Step [60/92]: Training Loss = 112.97404
+Epoch [20/100] Step [70/92]: Training Loss = 112.97515
+Epoch [20/100] Step [80/92]: Training Loss = 112.96762
+Epoch [20/100] Step [90/92]: Training Loss = 112.96035
+Epoch [21/100] Step [10/92]: Training Loss = 112.82428
+Epoch [21/100] Step [20/92]: Training Loss = 112.71576
+Epoch [21/100] Step [30/92]: Training Loss = 112.78700
+Epoch [21/100] Step [40/92]: Training Loss = 112.78033
+Epoch [21/100] Step [50/92]: Training Loss = 112.75740
+Epoch [21/100] Step [60/92]: Training Loss = 112.76746
+Epoch [21/100] Step [70/92]: Training Loss = 112.76820
+Epoch [21/100] Step [80/92]: Training Loss = 112.79034
+Epoch [21/100] Step [90/92]: Training Loss = 112.81275
+Epoch [22/100] Step [10/92]: Training Loss = 112.49092
+Epoch [22/100] Step [20/92]: Training Loss = 112.74849
+Epoch [22/100] Step [30/92]: Training Loss = 112.77235
+Epoch [22/100] Step [40/92]: Training Loss = 112.75593
+Epoch [22/100] Step [50/92]: Training Loss = 112.74375
+Epoch [22/100] Step [60/92]: Training Loss = 112.76695
+Epoch [22/100] Step [70/92]: Training Loss = 112.79621
+Epoch [22/100] Step [80/92]: Training Loss = 112.77661
+Epoch [22/100] Step [90/92]: Training Loss = 112.77941
+Epoch [23/100] Step [10/92]: Training Loss = 112.53905
+Epoch [23/100] Step [20/92]: Training Loss = 112.49455
+Epoch [23/100] Step [30/92]: Training Loss = 112.51839
+Epoch [23/100] Step [40/92]: Training Loss = 112.51856
+Epoch [23/100] Step [50/92]: Training Loss = 112.51339
+Epoch [23/100] Step [60/92]: Training Loss = 112.56573
+Epoch [23/100] Step [70/92]: Training Loss = 112.56077
+Epoch [23/100] Step [80/92]: Training Loss = 112.58552
+Epoch [23/100] Step [90/92]: Training Loss = 112.57621
+Epoch [24/100] Step [10/92]: Training Loss = 112.45803
+Epoch [24/100] Step [20/92]: Training Loss = 112.42985
+Epoch [24/100] Step [30/92]: Training Loss = 112.46604
+Epoch [24/100] Step [40/92]: Training Loss = 112.42743
+Epoch [24/100] Step [50/92]: Training Loss = 112.43707
+Epoch [24/100] Step [60/92]: Training Loss = 112.47223
+Epoch [24/100] Step [70/92]: Training Loss = 112.48532
+Epoch [24/100] Step [80/92]: Training Loss = 112.47934
+Epoch [24/100] Step [90/92]: Training Loss = 112.49137
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [69.77 67.89 52.66 90.7  83.63 73.5  74.28 65.55 77.88 80.9  71.43 81.65]  -- mean :  74.15
+total     :  [69.77 67.89 52.66 90.7  83.63 73.5  74.28 65.55 77.88 80.9  71.43 81.65]  -- mean :  74.15
+
+Median Error
+mean      :  [14.46 17.54 26.83  7.46  4.59  8.45 13.73 11.86 15.44 11.69  9.2  12.18]  -- mean :  12.79
+total     :  [14.46 17.54 26.83  7.46  4.59  8.45 13.73 11.86 15.44 11.69  9.2  12.18]  -- mean :  12.79
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [69.775390625, 67.87109375, 52.63671875, 90.673828125, 83.642578125, 73.486328125, 74.267578125, 65.52734375, 77.880859375, 80.908203125, 71.435546875, 81.640625]  ->  74.1455078125  %
+Type Median   :  [14.462, 17.542, 26.831, 7.459, 4.593, 8.447, 13.729, 11.86, 15.436, 11.685, 9.2, 12.184]  ->  12.786  degrees
+Type Loss     :  [59.885868324028266, 48.90999959589361, 44.14873311807821]  ->  152.9446010380001
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [25/100] Step [10/92]: Training Loss = 112.47498
+Epoch [25/100] Step [20/92]: Training Loss = 112.54315
+Epoch [25/100] Step [30/92]: Training Loss = 112.51245
+Epoch [25/100] Step [40/92]: Training Loss = 112.52554
+Epoch [25/100] Step [50/92]: Training Loss = 112.50928
+Epoch [25/100] Step [60/92]: Training Loss = 112.50474
+Epoch [25/100] Step [70/92]: Training Loss = 112.49213
+Epoch [25/100] Step [80/92]: Training Loss = 112.47388
+Epoch [25/100] Step [90/92]: Training Loss = 112.48493
+Epoch [26/100] Step [10/92]: Training Loss = 112.41663
+Epoch [26/100] Step [20/92]: Training Loss = 112.40293
+Epoch [26/100] Step [30/92]: Training Loss = 112.44310
+Epoch [26/100] Step [40/92]: Training Loss = 112.43623
+Epoch [26/100] Step [50/92]: Training Loss = 112.45392
+Epoch [26/100] Step [60/92]: Training Loss = 112.48058
+Epoch [26/100] Step [70/92]: Training Loss = 112.46938
+Epoch [26/100] Step [80/92]: Training Loss = 112.48322
+Epoch [26/100] Step [90/92]: Training Loss = 112.47278
+Epoch [27/100] Step [10/92]: Training Loss = 112.32740
+Epoch [27/100] Step [20/92]: Training Loss = 112.20664
+Epoch [27/100] Step [30/92]: Training Loss = 112.25671
+Epoch [27/100] Step [40/92]: Training Loss = 112.26685
+Epoch [27/100] Step [50/92]: Training Loss = 112.27019
+Epoch [27/100] Step [60/92]: Training Loss = 112.30016
+Epoch [27/100] Step [70/92]: Training Loss = 112.29507
+Epoch [27/100] Step [80/92]: Training Loss = 112.29665
+Epoch [27/100] Step [90/92]: Training Loss = 112.29816
+Epoch [28/100] Step [10/92]: Training Loss = 112.23292
+Epoch [28/100] Step [20/92]: Training Loss = 112.22490
+Epoch [28/100] Step [30/92]: Training Loss = 112.16807
+Epoch [28/100] Step [40/92]: Training Loss = 112.19685
+Epoch [28/100] Step [50/92]: Training Loss = 112.14736
+Epoch [28/100] Step [60/92]: Training Loss = 112.17954
+Epoch [28/100] Step [70/92]: Training Loss = 112.21034
+Epoch [28/100] Step [80/92]: Training Loss = 112.19358
+Epoch [28/100] Step [90/92]: Training Loss = 112.18958
+Epoch [29/100] Step [10/92]: Training Loss = 112.27085
+Epoch [29/100] Step [20/92]: Training Loss = 112.18606
+Epoch [29/100] Step [30/92]: Training Loss = 112.18821
+Epoch [29/100] Step [40/92]: Training Loss = 112.17943
+Epoch [29/100] Step [50/92]: Training Loss = 112.15524
+Epoch [29/100] Step [60/92]: Training Loss = 112.18249
+Epoch [29/100] Step [70/92]: Training Loss = 112.16165
+Epoch [29/100] Step [80/92]: Training Loss = 112.15150
+Epoch [29/100] Step [90/92]: Training Loss = 112.14077
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [70.   69.3  54.26 90.08 81.85 71.89 73.55 66.39 78.47 82.02 74.49 80.62]  -- mean :  74.41
+total     :  [70.   69.3  54.26 90.08 81.85 71.89 73.55 66.39 78.47 82.02 74.49 80.62]  -- mean :  74.41
+
+Median Error
+mean      :  [14.59 16.89 26.16  7.44  4.58  8.72 13.84 11.38 15.46 11.82  9.46 11.66]  -- mean :  12.67
+total     :  [14.59 16.89 26.16  7.44  4.58  8.72 13.84 11.38 15.46 11.82  9.46 11.66]  -- mean :  12.67
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [70.01953125, 69.287109375, 54.248046875, 90.087890625, 81.8359375, 71.875, 73.53515625, 66.40625, 78.466796875, 82.03125, 74.51171875, 80.615234375]  ->  74.40999348958333  %
+Type Median   :  [14.586, 16.885, 26.155, 7.436, 4.581, 8.715, 13.84, 11.384, 15.461, 11.819, 9.464, 11.659]  ->  12.666  degrees
+Type Loss     :  [60.106756692404275, 49.03934172745589, 44.18460871099116]  ->  153.33070713085132
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [30/100] Step [10/92]: Training Loss = 111.92998
+Epoch [30/100] Step [20/92]: Training Loss = 111.96119
+Epoch [30/100] Step [30/92]: Training Loss = 111.98031
+Epoch [30/100] Step [40/92]: Training Loss = 111.98163
+Epoch [30/100] Step [50/92]: Training Loss = 111.95634
+Epoch [30/100] Step [60/92]: Training Loss = 111.97383
+Epoch [30/100] Step [70/92]: Training Loss = 111.97903
+Epoch [30/100] Step [80/92]: Training Loss = 111.98832
+Epoch [30/100] Step [90/92]: Training Loss = 112.00819
+Epoch [31/100] Step [10/92]: Training Loss = 111.85299
+Epoch [31/100] Step [20/92]: Training Loss = 111.87071
+Epoch [31/100] Step [30/92]: Training Loss = 111.97060
+Epoch [31/100] Step [40/92]: Training Loss = 111.95605
+Epoch [31/100] Step [50/92]: Training Loss = 111.95540
+Epoch [31/100] Step [60/92]: Training Loss = 111.99410
+Epoch [31/100] Step [70/92]: Training Loss = 112.04190
+Epoch [31/100] Step [80/92]: Training Loss = 112.05612
+Epoch [31/100] Step [90/92]: Training Loss = 112.05388
+Epoch [32/100] Step [10/92]: Training Loss = 111.99255
+Epoch [32/100] Step [20/92]: Training Loss = 111.94122
+Epoch [32/100] Step [30/92]: Training Loss = 111.92958
+Epoch [32/100] Step [40/92]: Training Loss = 111.87473
+Epoch [32/100] Step [50/92]: Training Loss = 111.87005
+Epoch [32/100] Step [60/92]: Training Loss = 111.91005
+Epoch [32/100] Step [70/92]: Training Loss = 111.93883
+Epoch [32/100] Step [80/92]: Training Loss = 111.95447
+Epoch [32/100] Step [90/92]: Training Loss = 111.99665
+Epoch [33/100] Step [10/92]: Training Loss = 112.09964
+Epoch [33/100] Step [20/92]: Training Loss = 112.06787
+Epoch [33/100] Step [30/92]: Training Loss = 112.03168
+Epoch [33/100] Step [40/92]: Training Loss = 112.00601
+Epoch [33/100] Step [50/92]: Training Loss = 111.99914
+Epoch [33/100] Step [60/92]: Training Loss = 112.00117
+Epoch [33/100] Step [70/92]: Training Loss = 111.98833
+Epoch [33/100] Step [80/92]: Training Loss = 111.96005
+Epoch [33/100] Step [90/92]: Training Loss = 111.93315
+Epoch [34/100] Step [10/92]: Training Loss = 111.74781
+Epoch [34/100] Step [20/92]: Training Loss = 111.83175
+Epoch [34/100] Step [30/92]: Training Loss = 111.82805
+Epoch [34/100] Step [40/92]: Training Loss = 111.86183
+Epoch [34/100] Step [50/92]: Training Loss = 111.88131
+Epoch [34/100] Step [60/92]: Training Loss = 111.84551
+Epoch [34/100] Step [70/92]: Training Loss = 111.83821
+Epoch [34/100] Step [80/92]: Training Loss = 111.82785
+Epoch [34/100] Step [90/92]: Training Loss = 111.83751
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [68.6  65.63 52.66 89.15 80.78 73.93 74.44 65.13 76.7  80.9  73.13 78.81]  -- mean :  73.32
+total     :  [68.6  65.63 52.66 89.15 80.78 73.93 74.44 65.13 76.7  80.9  73.13 78.81]  -- mean :  73.32
+
+Median Error
+mean      :  [16.51 17.15 25.76  7.57  4.74  8.28 13.98 12.09 15.54 12.26  8.84 12.1 ]  -- mean :  12.9
+total     :  [16.51 17.15 25.76  7.57  4.74  8.28 13.98 12.09 15.54 12.26  8.84 12.1 ]  -- mean :  12.9
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [68.603515625, 65.625, 52.63671875, 89.16015625, 80.76171875, 73.92578125, 74.4140625, 65.13671875, 76.708984375, 80.908203125, 73.14453125, 78.80859375]  ->  73.31949869791667  %
+Type Median   :  [16.514, 17.154, 25.755, 7.57, 4.742, 8.278, 13.976, 12.094, 15.542, 12.256, 8.844, 12.103]  ->  12.902  degrees
+Type Loss     :  [60.44487280374045, 49.38665536733774, 44.47760496034727]  ->  154.30913313142545
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [35/100] Step [10/92]: Training Loss = 111.63677
+Epoch [35/100] Step [20/92]: Training Loss = 111.64191
+Epoch [35/100] Step [30/92]: Training Loss = 111.68215
+Epoch [35/100] Step [40/92]: Training Loss = 111.75844
+Epoch [35/100] Step [50/92]: Training Loss = 111.80713
+Epoch [35/100] Step [60/92]: Training Loss = 111.81014
+Epoch [35/100] Step [70/92]: Training Loss = 111.81847
+Epoch [35/100] Step [80/92]: Training Loss = 111.80476
+Epoch [35/100] Step [90/92]: Training Loss = 111.79840
+Epoch [36/100] Step [10/92]: Training Loss = 111.87017
+Epoch [36/100] Step [20/92]: Training Loss = 111.73575
+Epoch [36/100] Step [30/92]: Training Loss = 111.73013
+Epoch [36/100] Step [40/92]: Training Loss = 111.70223
+Epoch [36/100] Step [50/92]: Training Loss = 111.75006
+Epoch [36/100] Step [60/92]: Training Loss = 111.75486
+Epoch [36/100] Step [70/92]: Training Loss = 111.78705
+Epoch [36/100] Step [80/92]: Training Loss = 111.81071
+Epoch [36/100] Step [90/92]: Training Loss = 111.80741
+Epoch [37/100] Step [10/92]: Training Loss = 111.56326
+Epoch [37/100] Step [20/92]: Training Loss = 111.64504
+Epoch [37/100] Step [30/92]: Training Loss = 111.69099
+Epoch [37/100] Step [40/92]: Training Loss = 111.70431
+Epoch [37/100] Step [50/92]: Training Loss = 111.71509
+Epoch [37/100] Step [60/92]: Training Loss = 111.68352
+Epoch [37/100] Step [70/92]: Training Loss = 111.66762
+Epoch [37/100] Step [80/92]: Training Loss = 111.67868
+Epoch [37/100] Step [90/92]: Training Loss = 111.69020
+Epoch [38/100] Step [10/92]: Training Loss = 111.54830
+Epoch [38/100] Step [20/92]: Training Loss = 111.53896
+Epoch [38/100] Step [30/92]: Training Loss = 111.57908
+Epoch [38/100] Step [40/92]: Training Loss = 111.62816
+Epoch [38/100] Step [50/92]: Training Loss = 111.59924
+Epoch [38/100] Step [60/92]: Training Loss = 111.60936
+Epoch [38/100] Step [70/92]: Training Loss = 111.61975
+Epoch [38/100] Step [80/92]: Training Loss = 111.63145
+Epoch [38/100] Step [90/92]: Training Loss = 111.61854
+Epoch [39/100] Step [10/92]: Training Loss = 111.48370
+Epoch [39/100] Step [20/92]: Training Loss = 111.41266
+Epoch [39/100] Step [30/92]: Training Loss = 111.50875
+Epoch [39/100] Step [40/92]: Training Loss = 111.55449
+Epoch [39/100] Step [50/92]: Training Loss = 111.56090
+Epoch [39/100] Step [60/92]: Training Loss = 111.56886
+Epoch [39/100] Step [70/92]: Training Loss = 111.56325
+Epoch [39/100] Step [80/92]: Training Loss = 111.58084
+Epoch [39/100] Step [90/92]: Training Loss = 111.60114
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [68.84 68.73 55.05 89.77 81.49 73.93 74.44 62.18 76.4  80.9  69.73 81.14]  -- mean :  73.55
+total     :  [68.84 68.73 55.05 89.77 81.49 73.93 74.44 62.18 76.4  80.9  69.73 81.14]  -- mean :  73.55
+
+Median Error
+mean      :  [15.49 17.09 24.79  7.81  4.47  8.49 13.86 13.44 15.72 12.17  9.42 12.1 ]  -- mean :  12.9
+total     :  [15.49 17.09 24.79  7.81  4.47  8.49 13.86 13.44 15.72 12.17  9.42 12.1 ]  -- mean :  12.9
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [68.84765625, 68.75, 55.029296875, 89.74609375, 81.494140625, 73.92578125, 74.4140625, 62.20703125, 76.416015625, 80.908203125, 69.7265625, 81.15234375]  ->  73.55143229166667  %
+Type Median   :  [15.486, 17.086, 24.785, 7.81, 4.471, 8.487, 13.862, 13.444, 15.722, 12.165, 9.421, 12.103]  ->  12.903  degrees
+Type Loss     :  [60.34416760455121, 49.069270584609484, 44.43346732003348]  ->  153.8469055091942
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [40/100] Step [10/92]: Training Loss = 111.46947
+Epoch [40/100] Step [20/92]: Training Loss = 111.42666
+Epoch [40/100] Step [30/92]: Training Loss = 111.47976
+Epoch [40/100] Step [40/92]: Training Loss = 111.44579
+Epoch [40/100] Step [50/92]: Training Loss = 111.47699
+Epoch [40/100] Step [60/92]: Training Loss = 111.51578
+Epoch [40/100] Step [70/92]: Training Loss = 111.53746
+Epoch [40/100] Step [80/92]: Training Loss = 111.55977
+Epoch [40/100] Step [90/92]: Training Loss = 111.57308
+Epoch [41/100] Step [10/92]: Training Loss = 111.36523
+Epoch [41/100] Step [20/92]: Training Loss = 111.42403
+Epoch [41/100] Step [30/92]: Training Loss = 111.42570
+Epoch [41/100] Step [40/92]: Training Loss = 111.45087
+Epoch [41/100] Step [50/92]: Training Loss = 111.46392
+Epoch [41/100] Step [60/92]: Training Loss = 111.46108
+Epoch [41/100] Step [70/92]: Training Loss = 111.47618
+Epoch [41/100] Step [80/92]: Training Loss = 111.49218
+Epoch [41/100] Step [90/92]: Training Loss = 111.50115
+Epoch [42/100] Step [10/92]: Training Loss = 111.48709
+Epoch [42/100] Step [20/92]: Training Loss = 111.41332
+Epoch [42/100] Step [30/92]: Training Loss = 111.43823
+Epoch [42/100] Step [40/92]: Training Loss = 111.43262
+Epoch [42/100] Step [50/92]: Training Loss = 111.42106
+Epoch [42/100] Step [60/92]: Training Loss = 111.40419
+Epoch [42/100] Step [70/92]: Training Loss = 111.39998
+Epoch [42/100] Step [80/92]: Training Loss = 111.40778
+Epoch [42/100] Step [90/92]: Training Loss = 111.41570
+Epoch [43/100] Step [10/92]: Training Loss = 111.29113
+Epoch [43/100] Step [20/92]: Training Loss = 111.41767
+Epoch [43/100] Step [30/92]: Training Loss = 111.41620
+Epoch [43/100] Step [40/92]: Training Loss = 111.38992
+Epoch [43/100] Step [50/92]: Training Loss = 111.37417
+Epoch [43/100] Step [60/92]: Training Loss = 111.36909
+Epoch [43/100] Step [70/92]: Training Loss = 111.37895
+Epoch [43/100] Step [80/92]: Training Loss = 111.37119
+Epoch [43/100] Step [90/92]: Training Loss = 111.38331
+Epoch [44/100] Step [10/92]: Training Loss = 111.35261
+Epoch [44/100] Step [20/92]: Training Loss = 111.37278
+Epoch [44/100] Step [30/92]: Training Loss = 111.31233
+Epoch [44/100] Step [40/92]: Training Loss = 111.28348
+Epoch [44/100] Step [50/92]: Training Loss = 111.28903
+Epoch [44/100] Step [60/92]: Training Loss = 111.28418
+Epoch [44/100] Step [70/92]: Training Loss = 111.26566
+Epoch [44/100] Step [80/92]: Training Loss = 111.27553
+Epoch [44/100] Step [90/92]: Training Loss = 111.27394
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [67.44 67.89 51.6  89.46 81.14 72.75 73.39 65.55 75.22 77.15 72.79 81.14]  -- mean :  72.96
+total     :  [67.44 67.89 51.6  89.46 81.14 72.75 73.39 65.55 75.22 77.15 72.79 81.14]  -- mean :  72.96
+
+Median Error
+mean      :  [16.85 15.82 27.11  7.38  4.37  8.4  14.04 11.77 15.42 11.99  8.82 11.49]  -- mean :  12.79
+total     :  [16.85 15.82 27.11  7.38  4.37  8.4  14.04 11.77 15.42 11.99  8.82 11.49]  -- mean :  12.79
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [67.431640625, 67.87109375, 51.611328125, 89.453125, 81.15234375, 72.75390625, 73.388671875, 65.52734375, 75.244140625, 77.1484375, 72.802734375, 81.15234375]  ->  72.96142578125  %
+Type Median   :  [16.85, 15.819, 27.105, 7.381, 4.368, 8.402, 14.043, 11.765, 15.418, 11.985, 8.818, 11.486]  ->  12.787  degrees
+Type Loss     :  [60.74169330806522, 49.43436398348965, 44.63366074614473]  ->  154.8097180376996
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [45/100] Step [10/92]: Training Loss = 111.08512
+Epoch [45/100] Step [20/92]: Training Loss = 111.11442
+Epoch [45/100] Step [30/92]: Training Loss = 111.12192
+Epoch [45/100] Step [40/92]: Training Loss = 111.12550
+Epoch [45/100] Step [50/92]: Training Loss = 111.15814
+Epoch [45/100] Step [60/92]: Training Loss = 111.17645
+Epoch [45/100] Step [70/92]: Training Loss = 111.17884
+Epoch [45/100] Step [80/92]: Training Loss = 111.17996
+Epoch [45/100] Step [90/92]: Training Loss = 111.19255
+Epoch [46/100] Step [10/92]: Training Loss = 111.20357
+Epoch [46/100] Step [20/92]: Training Loss = 111.22623
+Epoch [46/100] Step [30/92]: Training Loss = 111.27097
+Epoch [46/100] Step [40/92]: Training Loss = 111.26399
+Epoch [46/100] Step [50/92]: Training Loss = 111.26529
+Epoch [46/100] Step [60/92]: Training Loss = 111.24161
+Epoch [46/100] Step [70/92]: Training Loss = 111.23479
+Epoch [46/100] Step [80/92]: Training Loss = 111.20893
+Epoch [46/100] Step [90/92]: Training Loss = 111.18237
+Epoch [47/100] Step [10/92]: Training Loss = 111.07181
+Epoch [47/100] Step [20/92]: Training Loss = 111.05377
+Epoch [47/100] Step [30/92]: Training Loss = 111.03669
+Epoch [47/100] Step [40/92]: Training Loss = 111.04645
+Epoch [47/100] Step [50/92]: Training Loss = 111.06728
+Epoch [47/100] Step [60/92]: Training Loss = 111.08947
+Epoch [47/100] Step [70/92]: Training Loss = 111.08911
+Epoch [47/100] Step [80/92]: Training Loss = 111.07139
+Epoch [47/100] Step [90/92]: Training Loss = 111.08217
+Epoch [48/100] Step [10/92]: Training Loss = 111.11684
+Epoch [48/100] Step [20/92]: Training Loss = 111.03017
+Epoch [48/100] Step [30/92]: Training Loss = 111.02134
+Epoch [48/100] Step [40/92]: Training Loss = 111.04451
+Epoch [48/100] Step [50/92]: Training Loss = 111.04619
+Epoch [48/100] Step [60/92]: Training Loss = 111.06962
+Epoch [48/100] Step [70/92]: Training Loss = 111.06572
+Epoch [48/100] Step [80/92]: Training Loss = 111.07648
+Epoch [48/100] Step [90/92]: Training Loss = 111.06159
+Epoch [49/100] Step [10/92]: Training Loss = 111.06691
+Epoch [49/100] Step [20/92]: Training Loss = 111.04873
+Epoch [49/100] Step [30/92]: Training Loss = 111.07075
+Epoch [49/100] Step [40/92]: Training Loss = 111.08278
+Epoch [49/100] Step [50/92]: Training Loss = 111.09576
+Epoch [49/100] Step [60/92]: Training Loss = 111.06975
+Epoch [49/100] Step [70/92]: Training Loss = 111.05846
+Epoch [49/100] Step [80/92]: Training Loss = 111.03418
+Epoch [49/100] Step [90/92]: Training Loss = 111.03903
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [71.16 65.92 51.86 90.23 80.78 72.   73.87 64.29 72.86 79.78 71.77 79.84]  -- mean :  72.86
+total     :  [71.16 65.92 51.86 90.23 80.78 72.   73.87 64.29 72.86 79.78 71.77 79.84]  -- mean :  72.86
+
+Median Error
+mean      :  [15.76 17.   27.94  7.27  4.71  8.55 14.07 12.15 16.37 12.6   9.96 12.75]  -- mean :  13.26
+total     :  [15.76 17.   27.94  7.27  4.71  8.55 14.07 12.15 16.37 12.6   9.96 12.75]  -- mean :  13.26
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [71.142578125, 65.91796875, 51.85546875, 90.234375, 80.76171875, 71.97265625, 73.876953125, 64.306640625, 72.8515625, 79.78515625, 71.77734375, 79.833984375]  ->  72.85970052083333  %
+Type Median   :  [15.76, 16.998, 27.935, 7.273, 4.705, 8.553, 14.074, 12.152, 16.372, 12.603, 9.956, 12.747]  ->  13.261  degrees
+Type Loss     :  [60.71432147183261, 49.22664206368582, 44.469227843232204]  ->  154.41019137875065
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [50/100] Step [10/92]: Training Loss = 110.89603
+Epoch [50/100] Step [20/92]: Training Loss = 110.89164
+Epoch [50/100] Step [30/92]: Training Loss = 110.88645
+Epoch [50/100] Step [40/92]: Training Loss = 110.86022
+Epoch [50/100] Step [50/92]: Training Loss = 110.86445
+Epoch [50/100] Step [60/92]: Training Loss = 110.87830
+Epoch [50/100] Step [70/92]: Training Loss = 110.90292
+Epoch [50/100] Step [80/92]: Training Loss = 110.93526
+Epoch [50/100] Step [90/92]: Training Loss = 110.95980
+Epoch [51/100] Step [10/92]: Training Loss = 110.83021
+Epoch [51/100] Step [20/92]: Training Loss = 110.90139
+Epoch [51/100] Step [30/92]: Training Loss = 110.95105
+Epoch [51/100] Step [40/92]: Training Loss = 110.98479
+Epoch [51/100] Step [50/92]: Training Loss = 111.03046
+Epoch [51/100] Step [60/92]: Training Loss = 111.01822
+Epoch [51/100] Step [70/92]: Training Loss = 111.00888
+Epoch [51/100] Step [80/92]: Training Loss = 110.97916
+Epoch [51/100] Step [90/92]: Training Loss = 110.98556
+Epoch [52/100] Step [10/92]: Training Loss = 110.80779
+Epoch [52/100] Step [20/92]: Training Loss = 110.75963
+Epoch [52/100] Step [30/92]: Training Loss = 110.81816
+Epoch [52/100] Step [40/92]: Training Loss = 110.84904
+Epoch [52/100] Step [50/92]: Training Loss = 110.83460
+Epoch [52/100] Step [60/92]: Training Loss = 110.83371
+Epoch [52/100] Step [70/92]: Training Loss = 110.84920
+Epoch [52/100] Step [80/92]: Training Loss = 110.86201
+Epoch [52/100] Step [90/92]: Training Loss = 110.87395
+Epoch [53/100] Step [10/92]: Training Loss = 110.69668
+Epoch [53/100] Step [20/92]: Training Loss = 110.77053
+Epoch [53/100] Step [30/92]: Training Loss = 110.78957
+Epoch [53/100] Step [40/92]: Training Loss = 110.78120
+Epoch [53/100] Step [50/92]: Training Loss = 110.82672
+Epoch [53/100] Step [60/92]: Training Loss = 110.83536
+Epoch [53/100] Step [70/92]: Training Loss = 110.85174
+Epoch [53/100] Step [80/92]: Training Loss = 110.87513
+Epoch [53/100] Step [90/92]: Training Loss = 110.88796
+Epoch [54/100] Step [10/92]: Training Loss = 110.97414
+Epoch [54/100] Step [20/92]: Training Loss = 110.95187
+Epoch [54/100] Step [30/92]: Training Loss = 110.85067
+Epoch [54/100] Step [40/92]: Training Loss = 110.87580
+Epoch [54/100] Step [50/92]: Training Loss = 110.88889
+Epoch [54/100] Step [60/92]: Training Loss = 110.87653
+Epoch [54/100] Step [70/92]: Training Loss = 110.87003
+Epoch [54/100] Step [80/92]: Training Loss = 110.86501
+Epoch [54/100] Step [90/92]: Training Loss = 110.87339
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [68.37 67.04 50.27 89.61 79.   70.6  73.31 62.61 75.22 79.78 69.73 80.1 ]  -- mean :  72.14
+total     :  [68.37 67.04 50.27 89.61 79.   70.6  73.31 62.61 75.22 79.78 69.73 80.1 ]  -- mean :  72.14
+
+Median Error
+mean      :  [14.8  17.49 29.15  7.28  5.    8.99 14.3  13.94 15.81 12.1   9.31 11.83]  -- mean :  13.33
+total     :  [14.8  17.49 29.15  7.28  5.    8.99 14.3  13.94 15.81 12.1   9.31 11.83]  -- mean :  13.33
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [68.359375, 67.041015625, 50.244140625, 89.599609375, 79.00390625, 70.60546875, 73.291015625, 62.59765625, 75.244140625, 79.78515625, 69.7265625, 80.126953125]  ->  72.13541666666667  %
+Type Median   :  [14.803, 17.487, 29.153, 7.28, 4.999, 8.989, 14.303, 13.94, 15.813, 12.098, 9.311, 11.827]  ->  13.334  degrees
+Type Loss     :  [60.93698468051114, 49.23689496386182, 44.7878660264906]  ->  154.96174567086356
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [55/100] Step [10/92]: Training Loss = 110.98787
+Epoch [55/100] Step [20/92]: Training Loss = 110.84461
+Epoch [55/100] Step [30/92]: Training Loss = 110.82378
+Epoch [55/100] Step [40/92]: Training Loss = 110.86249
+Epoch [55/100] Step [50/92]: Training Loss = 110.86012
+Epoch [55/100] Step [60/92]: Training Loss = 110.84547
+Epoch [55/100] Step [70/92]: Training Loss = 110.82917
+Epoch [55/100] Step [80/92]: Training Loss = 110.83083
+Epoch [55/100] Step [90/92]: Training Loss = 110.84192
+Epoch [56/100] Step [10/92]: Training Loss = 110.69073
+Epoch [56/100] Step [20/92]: Training Loss = 110.70142
+Epoch [56/100] Step [30/92]: Training Loss = 110.67932
+Epoch [56/100] Step [40/92]: Training Loss = 110.65792
+Epoch [56/100] Step [50/92]: Training Loss = 110.70512
+Epoch [56/100] Step [60/92]: Training Loss = 110.72275
+Epoch [56/100] Step [70/92]: Training Loss = 110.73903
+Epoch [56/100] Step [80/92]: Training Loss = 110.74693
+Epoch [56/100] Step [90/92]: Training Loss = 110.76490
+Epoch [57/100] Step [10/92]: Training Loss = 110.66906
+Epoch [57/100] Step [20/92]: Training Loss = 110.68603
+Epoch [57/100] Step [30/92]: Training Loss = 110.71045
+Epoch [57/100] Step [40/92]: Training Loss = 110.72820
+Epoch [57/100] Step [50/92]: Training Loss = 110.73503
+Epoch [57/100] Step [60/92]: Training Loss = 110.75278
+Epoch [57/100] Step [70/92]: Training Loss = 110.72607
+Epoch [57/100] Step [80/92]: Training Loss = 110.71773
+Epoch [57/100] Step [90/92]: Training Loss = 110.70587
+Epoch [58/100] Step [10/92]: Training Loss = 110.63199
+Epoch [58/100] Step [20/92]: Training Loss = 110.66127
+Epoch [58/100] Step [30/92]: Training Loss = 110.59875
+Epoch [58/100] Step [40/92]: Training Loss = 110.60339
+Epoch [58/100] Step [50/92]: Training Loss = 110.62081
+Epoch [58/100] Step [60/92]: Training Loss = 110.63494
+Epoch [58/100] Step [70/92]: Training Loss = 110.65313
+Epoch [58/100] Step [80/92]: Training Loss = 110.67773
+Epoch [58/100] Step [90/92]: Training Loss = 110.68798
+Epoch [59/100] Step [10/92]: Training Loss = 110.60798
+Epoch [59/100] Step [20/92]: Training Loss = 110.73232
+Epoch [59/100] Step [30/92]: Training Loss = 110.73518
+Epoch [59/100] Step [40/92]: Training Loss = 110.79119
+Epoch [59/100] Step [50/92]: Training Loss = 110.76283
+Epoch [59/100] Step [60/92]: Training Loss = 110.74262
+Epoch [59/100] Step [70/92]: Training Loss = 110.75903
+Epoch [59/100] Step [80/92]: Training Loss = 110.74015
+Epoch [59/100] Step [90/92]: Training Loss = 110.73855
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [67.91 67.61 53.72 89.61 78.65 71.67 74.04 65.55 76.99 81.27 72.79 80.88]  -- mean :  73.39
+total     :  [67.91 67.61 53.72 89.61 78.65 71.67 74.04 65.55 76.99 81.27 72.79 80.88]  -- mean :  73.39
+
+Median Error
+mean      :  [16.47 17.73 25.51  7.33  4.57  9.06 14.26 12.53 15.62 11.93  8.88 12.04]  -- mean :  12.99
+total     :  [16.47 17.73 25.51  7.33  4.57  9.06 14.26 12.53 15.62 11.93  8.88 12.04]  -- mean :  12.99
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [67.919921875, 67.626953125, 53.7109375, 89.599609375, 78.662109375, 71.6796875, 74.0234375, 65.52734375, 77.001953125, 81.25, 72.802734375, 80.859375]  ->  73.388671875  %
+Type Median   :  [16.467, 17.733, 25.507, 7.333, 4.572, 9.06, 14.259, 12.527, 15.619, 11.932, 8.88, 12.037]  ->  12.994  degrees
+Type Loss     :  [61.087488991873606, 49.4753060393281, 44.70410177209875]  ->  155.26689680330045
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [60/100] Step [10/92]: Training Loss = 110.74958
+Epoch [60/100] Step [20/92]: Training Loss = 110.71982
+Epoch [60/100] Step [30/92]: Training Loss = 110.67409
+Epoch [60/100] Step [40/92]: Training Loss = 110.67109
+Epoch [60/100] Step [50/92]: Training Loss = 110.67668
+Epoch [60/100] Step [60/92]: Training Loss = 110.67163
+Epoch [60/100] Step [70/92]: Training Loss = 110.69427
+Epoch [60/100] Step [80/92]: Training Loss = 110.67014
+Epoch [60/100] Step [90/92]: Training Loss = 110.69087
+Epoch [61/100] Step [10/92]: Training Loss = 110.52208
+Epoch [61/100] Step [20/92]: Training Loss = 110.53241
+Epoch [61/100] Step [30/92]: Training Loss = 110.52716
+Epoch [61/100] Step [40/92]: Training Loss = 110.55345
+Epoch [61/100] Step [50/92]: Training Loss = 110.56909
+Epoch [61/100] Step [60/92]: Training Loss = 110.57638
+Epoch [61/100] Step [70/92]: Training Loss = 110.59216
+Epoch [61/100] Step [80/92]: Training Loss = 110.58640
+Epoch [61/100] Step [90/92]: Training Loss = 110.58015
+Epoch [62/100] Step [10/92]: Training Loss = 110.45731
+Epoch [62/100] Step [20/92]: Training Loss = 110.54704
+Epoch [62/100] Step [30/92]: Training Loss = 110.58441
+Epoch [62/100] Step [40/92]: Training Loss = 110.58103
+Epoch [62/100] Step [50/92]: Training Loss = 110.57911
+Epoch [62/100] Step [60/92]: Training Loss = 110.57603
+Epoch [62/100] Step [70/92]: Training Loss = 110.54423
+Epoch [62/100] Step [80/92]: Training Loss = 110.54302
+Epoch [62/100] Step [90/92]: Training Loss = 110.53921
+Epoch [63/100] Step [10/92]: Training Loss = 110.48964
+Epoch [63/100] Step [20/92]: Training Loss = 110.54061
+Epoch [63/100] Step [30/92]: Training Loss = 110.53744
+Epoch [63/100] Step [40/92]: Training Loss = 110.50730
+Epoch [63/100] Step [50/92]: Training Loss = 110.48590
+Epoch [63/100] Step [60/92]: Training Loss = 110.46298
+Epoch [63/100] Step [70/92]: Training Loss = 110.49568
+Epoch [63/100] Step [80/92]: Training Loss = 110.47606
+Epoch [63/100] Step [90/92]: Training Loss = 110.47774
+Epoch [64/100] Step [10/92]: Training Loss = 110.43826
+Epoch [64/100] Step [20/92]: Training Loss = 110.45296
+Epoch [64/100] Step [30/92]: Training Loss = 110.44448
+Epoch [64/100] Step [40/92]: Training Loss = 110.44049
+Epoch [64/100] Step [50/92]: Training Loss = 110.42758
+Epoch [64/100] Step [60/92]: Training Loss = 110.46746
+Epoch [64/100] Step [70/92]: Training Loss = 110.48868
+Epoch [64/100] Step [80/92]: Training Loss = 110.49471
+Epoch [64/100] Step [90/92]: Training Loss = 110.49622
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [66.28 67.32 52.66 90.39 78.29 70.92 71.86 64.29 71.68 81.27 72.45 79.07]  -- mean :  72.21
+total     :  [66.28 67.32 52.66 90.39 78.29 70.92 71.86 64.29 71.68 81.27 72.45 79.07]  -- mean :  72.21
+
+Median Error
+mean      :  [16.54 18.2  26.61  7.61  4.59  8.52 14.95 12.32 16.7  12.52  9.04 11.78]  -- mean :  13.28
+total     :  [16.54 18.2  26.61  7.61  4.59  8.52 14.95 12.32 16.7  12.52  9.04 11.78]  -- mean :  13.28
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [66.259765625, 67.333984375, 52.63671875, 90.380859375, 78.271484375, 70.8984375, 71.875, 64.306640625, 71.6796875, 81.25, 72.4609375, 79.052734375]  ->  72.20052083333333  %
+Type Median   :  [16.535, 18.202, 26.61, 7.614, 4.591, 8.524, 14.946, 12.319, 16.703, 12.518, 9.044, 11.776]  ->  13.282  degrees
+Type Loss     :  [61.32888923896538, 49.39712633405413, 44.76848740630098]  ->  155.4945029793205
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [65/100] Step [10/92]: Training Loss = 110.48739
+Epoch [65/100] Step [20/92]: Training Loss = 110.43277
+Epoch [65/100] Step [30/92]: Training Loss = 110.46263
+Epoch [65/100] Step [40/92]: Training Loss = 110.45600
+Epoch [65/100] Step [50/92]: Training Loss = 110.47519
+Epoch [65/100] Step [60/92]: Training Loss = 110.50350
+Epoch [65/100] Step [70/92]: Training Loss = 110.51121
+Epoch [65/100] Step [80/92]: Training Loss = 110.50707
+Epoch [65/100] Step [90/92]: Training Loss = 110.49796
+Epoch [66/100] Step [10/92]: Training Loss = 110.30250
+Epoch [66/100] Step [20/92]: Training Loss = 110.38268
+Epoch [66/100] Step [30/92]: Training Loss = 110.41424
+Epoch [66/100] Step [40/92]: Training Loss = 110.42835
+Epoch [66/100] Step [50/92]: Training Loss = 110.42212
+Epoch [66/100] Step [60/92]: Training Loss = 110.43133
+Epoch [66/100] Step [70/92]: Training Loss = 110.42444
+Epoch [66/100] Step [80/92]: Training Loss = 110.41373
+Epoch [66/100] Step [90/92]: Training Loss = 110.40224
+Epoch [67/100] Step [10/92]: Training Loss = 110.30412
+Epoch [67/100] Step [20/92]: Training Loss = 110.43024
+Epoch [67/100] Step [30/92]: Training Loss = 110.41801
+Epoch [67/100] Step [40/92]: Training Loss = 110.45775
+Epoch [67/100] Step [50/92]: Training Loss = 110.43065
+Epoch [67/100] Step [60/92]: Training Loss = 110.44430
+Epoch [67/100] Step [70/92]: Training Loss = 110.43803
+Epoch [67/100] Step [80/92]: Training Loss = 110.42580
+Epoch [67/100] Step [90/92]: Training Loss = 110.41489
+Epoch [68/100] Step [10/92]: Training Loss = 110.30884
+Epoch [68/100] Step [20/92]: Training Loss = 110.28296
+Epoch [68/100] Step [30/92]: Training Loss = 110.27531
+Epoch [68/100] Step [40/92]: Training Loss = 110.27668
+Epoch [68/100] Step [50/92]: Training Loss = 110.27541
+Epoch [68/100] Step [60/92]: Training Loss = 110.29764
+Epoch [68/100] Step [70/92]: Training Loss = 110.30195
+Epoch [68/100] Step [80/92]: Training Loss = 110.31845
+Epoch [68/100] Step [90/92]: Training Loss = 110.34205
+Epoch [69/100] Step [10/92]: Training Loss = 110.30497
+Epoch [69/100] Step [20/92]: Training Loss = 110.33010
+Epoch [69/100] Step [30/92]: Training Loss = 110.25142
+Epoch [69/100] Step [40/92]: Training Loss = 110.26206
+Epoch [69/100] Step [50/92]: Training Loss = 110.28560
+Epoch [69/100] Step [60/92]: Training Loss = 110.28186
+Epoch [69/100] Step [70/92]: Training Loss = 110.27558
+Epoch [69/100] Step [80/92]: Training Loss = 110.29223
+Epoch [69/100] Step [90/92]: Training Loss = 110.30905
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [66.51 67.32 51.06 90.39 80.07 71.46 71.62 64.29 74.93 80.15 70.41 80.36]  -- mean :  72.38
+total     :  [66.51 67.32 51.06 90.39 80.07 71.46 71.62 64.29 74.93 80.15 70.41 80.36]  -- mean :  72.38
+
+Median Error
+mean      :  [17.38 17.63 27.78  7.44  4.74  8.97 14.76 13.63 16.33 12.27  9.17 11.68]  -- mean :  13.48
+total     :  [17.38 17.63 27.78  7.44  4.74  8.97 14.76 13.63 16.33 12.27  9.17 11.68]  -- mean :  13.48
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [66.50390625, 67.333984375, 51.07421875, 90.380859375, 80.078125, 71.435546875, 71.630859375, 64.306640625, 74.90234375, 80.126953125, 70.41015625, 80.37109375]  ->  72.37955729166667  %
+Type Median   :  [17.382, 17.626, 27.775, 7.439, 4.742, 8.974, 14.757, 13.626, 16.334, 12.268, 9.172, 11.678]  ->  13.481  degrees
+Type Loss     :  [61.625548394171744, 49.521211351667134, 44.75806779127855]  ->  155.90482753711743
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [70/100] Step [10/92]: Training Loss = 110.17880
+Epoch [70/100] Step [20/92]: Training Loss = 110.22938
+Epoch [70/100] Step [30/92]: Training Loss = 110.30106
+Epoch [70/100] Step [40/92]: Training Loss = 110.30599
+Epoch [70/100] Step [50/92]: Training Loss = 110.30641
+Epoch [70/100] Step [60/92]: Training Loss = 110.31723
+Epoch [70/100] Step [70/92]: Training Loss = 110.30704
+Epoch [70/100] Step [80/92]: Training Loss = 110.31252
+Epoch [70/100] Step [90/92]: Training Loss = 110.30122
+Epoch [71/100] Step [10/92]: Training Loss = 110.29211
+Epoch [71/100] Step [20/92]: Training Loss = 110.30177
+Epoch [71/100] Step [30/92]: Training Loss = 110.35433
+Epoch [71/100] Step [40/92]: Training Loss = 110.31421
+Epoch [71/100] Step [50/92]: Training Loss = 110.29467
+Epoch [71/100] Step [60/92]: Training Loss = 110.27668
+Epoch [71/100] Step [70/92]: Training Loss = 110.27377
+Epoch [71/100] Step [80/92]: Training Loss = 110.24400
+Epoch [71/100] Step [90/92]: Training Loss = 110.22882
+Epoch [72/100] Step [10/92]: Training Loss = 109.95261
+Epoch [72/100] Step [20/92]: Training Loss = 109.95620
+Epoch [72/100] Step [30/92]: Training Loss = 109.99495
+Epoch [72/100] Step [40/92]: Training Loss = 110.00665
+Epoch [72/100] Step [50/92]: Training Loss = 109.99316
+Epoch [72/100] Step [60/92]: Training Loss = 110.00234
+Epoch [72/100] Step [70/92]: Training Loss = 110.02559
+Epoch [72/100] Step [80/92]: Training Loss = 110.04856
+Epoch [72/100] Step [90/92]: Training Loss = 110.09487
+Epoch [73/100] Step [10/92]: Training Loss = 110.09242
+Epoch [73/100] Step [20/92]: Training Loss = 110.08428
+Epoch [73/100] Step [30/92]: Training Loss = 110.12930
+Epoch [73/100] Step [40/92]: Training Loss = 110.13096
+Epoch [73/100] Step [50/92]: Training Loss = 110.12720
+Epoch [73/100] Step [60/92]: Training Loss = 110.10585
+Epoch [73/100] Step [70/92]: Training Loss = 110.11646
+Epoch [73/100] Step [80/92]: Training Loss = 110.13329
+Epoch [73/100] Step [90/92]: Training Loss = 110.13747
+Epoch [74/100] Step [10/92]: Training Loss = 110.12569
+Epoch [74/100] Step [20/92]: Training Loss = 110.14977
+Epoch [74/100] Step [30/92]: Training Loss = 110.08985
+Epoch [74/100] Step [40/92]: Training Loss = 110.08700
+Epoch [74/100] Step [50/92]: Training Loss = 110.06845
+Epoch [74/100] Step [60/92]: Training Loss = 110.06908
+Epoch [74/100] Step [70/92]: Training Loss = 110.09231
+Epoch [74/100] Step [80/92]: Training Loss = 110.08330
+Epoch [74/100] Step [90/92]: Training Loss = 110.07219
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [66.98 64.79 52.39 90.08 78.29 71.46 70.74 68.49 75.52 79.03 73.81 80.1 ]  -- mean :  72.64
+total     :  [66.98 64.79 52.39 90.08 78.29 71.46 70.74 68.49 75.52 79.03 73.81 80.1 ]  -- mean :  72.64
+
+Median Error
+mean      :  [16.58 17.71 27.16  7.81  4.7   9.57 15.05 12.6  17.33 12.4   9.05 12.4 ]  -- mean :  13.53
+total     :  [16.58 17.71 27.16  7.81  4.7   9.57 15.05 12.6  17.33 12.4   9.05 12.4 ]  -- mean :  13.53
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [66.9921875, 64.794921875, 52.392578125, 90.087890625, 78.271484375, 71.435546875, 70.751953125, 68.505859375, 75.537109375, 79.00390625, 73.828125, 80.126953125]  ->  72.64404296875  %
+Type Median   :  [16.583, 17.707, 27.158, 7.81, 4.704, 9.572, 15.048, 12.601, 17.33, 12.395, 9.045, 12.402]  ->  13.53  degrees
+Type Loss     :  [61.55588963267567, 49.56241016597538, 44.96643984448779]  ->  156.08473964313885
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [75/100] Step [10/92]: Training Loss = 109.95823
+Epoch [75/100] Step [20/92]: Training Loss = 109.94662
+Epoch [75/100] Step [30/92]: Training Loss = 109.92956
+Epoch [75/100] Step [40/92]: Training Loss = 109.92786
+Epoch [75/100] Step [50/92]: Training Loss = 109.97321
+Epoch [75/100] Step [60/92]: Training Loss = 109.99057
+Epoch [75/100] Step [70/92]: Training Loss = 110.00575
+Epoch [75/100] Step [80/92]: Training Loss = 110.00779
+Epoch [75/100] Step [90/92]: Training Loss = 110.01542
+Epoch [76/100] Step [10/92]: Training Loss = 109.89786
+Epoch [76/100] Step [20/92]: Training Loss = 109.98685
+Epoch [76/100] Step [30/92]: Training Loss = 109.99013
+Epoch [76/100] Step [40/92]: Training Loss = 109.98158
+Epoch [76/100] Step [50/92]: Training Loss = 109.97008
+Epoch [76/100] Step [60/92]: Training Loss = 109.96806
+Epoch [76/100] Step [70/92]: Training Loss = 109.95942
+Epoch [76/100] Step [80/92]: Training Loss = 109.95868
+Epoch [76/100] Step [90/92]: Training Loss = 109.97500
+Epoch [77/100] Step [10/92]: Training Loss = 109.90390
+Epoch [77/100] Step [20/92]: Training Loss = 109.93541
+Epoch [77/100] Step [30/92]: Training Loss = 109.96227
+Epoch [77/100] Step [40/92]: Training Loss = 109.92557
+Epoch [77/100] Step [50/92]: Training Loss = 109.95816
+Epoch [77/100] Step [60/92]: Training Loss = 109.99143
+Epoch [77/100] Step [70/92]: Training Loss = 110.01313
+Epoch [77/100] Step [80/92]: Training Loss = 110.02167
+Epoch [77/100] Step [90/92]: Training Loss = 110.00562
+Epoch [78/100] Step [10/92]: Training Loss = 109.85061
+Epoch [78/100] Step [20/92]: Training Loss = 109.95924
+Epoch [78/100] Step [30/92]: Training Loss = 109.94958
+Epoch [78/100] Step [40/92]: Training Loss = 109.98368
+Epoch [78/100] Step [50/92]: Training Loss = 109.99342
+Epoch [78/100] Step [60/92]: Training Loss = 110.00772
+Epoch [78/100] Step [70/92]: Training Loss = 109.99976
+Epoch [78/100] Step [80/92]: Training Loss = 109.98408
+Epoch [78/100] Step [90/92]: Training Loss = 109.98977
+Epoch [79/100] Step [10/92]: Training Loss = 109.85957
+Epoch [79/100] Step [20/92]: Training Loss = 109.90604
+Epoch [79/100] Step [30/92]: Training Loss = 109.89201
+Epoch [79/100] Step [40/92]: Training Loss = 109.91009
+Epoch [79/100] Step [50/92]: Training Loss = 109.95093
+Epoch [79/100] Step [60/92]: Training Loss = 109.94621
+Epoch [79/100] Step [70/92]: Training Loss = 109.95839
+Epoch [79/100] Step [80/92]: Training Loss = 109.96562
+Epoch [79/100] Step [90/92]: Training Loss = 109.96044
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [64.65 66.48 49.73 88.37 77.58 70.6  72.11 64.71 72.27 82.02 71.09 80.1 ]  -- mean :  71.64
+total     :  [64.65 66.48 49.73 88.37 77.58 70.6  72.11 64.71 72.27 82.02 71.09 80.1 ]  -- mean :  71.64
+
+Median Error
+mean      :  [17.52 17.7  30.58  8.09  4.76  9.55 15.02 13.81 17.2  13.15  9.44 12.04]  -- mean :  14.07
+total     :  [17.52 17.7  30.58  8.09  4.76  9.55 15.02 13.81 17.2  13.15  9.44 12.04]  -- mean :  14.07
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [64.6484375, 66.455078125, 49.7314453125, 88.37890625, 77.587890625, 70.60546875, 72.119140625, 64.697265625, 72.265625, 82.03125, 71.09375, 80.126953125]  ->  71.64510091145833  %
+Type Median   :  [17.517, 17.696, 30.575, 8.089, 4.758, 9.548, 15.024, 13.811, 17.202, 13.145, 9.441, 12.041]  ->  14.071  degrees
+Type Loss     :  [61.74669949038998, 49.55438978593428, 45.092806973300135]  ->  156.3938962496244
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [80/100] Step [10/92]: Training Loss = 109.84641
+Epoch [80/100] Step [20/92]: Training Loss = 109.84667
+Epoch [80/100] Step [30/92]: Training Loss = 109.86277
+Epoch [80/100] Step [40/92]: Training Loss = 109.86780
+Epoch [80/100] Step [50/92]: Training Loss = 109.86488
+Epoch [80/100] Step [60/92]: Training Loss = 109.88364
+Epoch [80/100] Step [70/92]: Training Loss = 109.88417
+Epoch [80/100] Step [80/92]: Training Loss = 109.88529
+Epoch [80/100] Step [90/92]: Training Loss = 109.88351
+Epoch [81/100] Step [10/92]: Training Loss = 109.79517
+Epoch [81/100] Step [20/92]: Training Loss = 109.88209
+Epoch [81/100] Step [30/92]: Training Loss = 109.94211
+Epoch [81/100] Step [40/92]: Training Loss = 109.95999
+Epoch [81/100] Step [50/92]: Training Loss = 109.93800
+Epoch [81/100] Step [60/92]: Training Loss = 109.90740
+Epoch [81/100] Step [70/92]: Training Loss = 109.89120
+Epoch [81/100] Step [80/92]: Training Loss = 109.90595
+Epoch [81/100] Step [90/92]: Training Loss = 109.90371
+Epoch [82/100] Step [10/92]: Training Loss = 109.85077
+Epoch [82/100] Step [20/92]: Training Loss = 109.79511
+Epoch [82/100] Step [30/92]: Training Loss = 109.83799
+Epoch [82/100] Step [40/92]: Training Loss = 109.88900
+Epoch [82/100] Step [50/92]: Training Loss = 109.89783
+Epoch [82/100] Step [60/92]: Training Loss = 109.92603
+Epoch [82/100] Step [70/92]: Training Loss = 109.91033
+Epoch [82/100] Step [80/92]: Training Loss = 109.92682
+Epoch [82/100] Step [90/92]: Training Loss = 109.91387
+Epoch [83/100] Step [10/92]: Training Loss = 109.86395
+Epoch [83/100] Step [20/92]: Training Loss = 109.80201
+Epoch [83/100] Step [30/92]: Training Loss = 109.82026
+Epoch [83/100] Step [40/92]: Training Loss = 109.81780
+Epoch [83/100] Step [50/92]: Training Loss = 109.84218
+Epoch [83/100] Step [60/92]: Training Loss = 109.83522
+Epoch [83/100] Step [70/92]: Training Loss = 109.81755
+Epoch [83/100] Step [80/92]: Training Loss = 109.83944
+Epoch [83/100] Step [90/92]: Training Loss = 109.83026
+Epoch [84/100] Step [10/92]: Training Loss = 109.69866
+Epoch [84/100] Step [20/92]: Training Loss = 109.74433
+Epoch [84/100] Step [30/92]: Training Loss = 109.76648
+Epoch [84/100] Step [40/92]: Training Loss = 109.80652
+Epoch [84/100] Step [50/92]: Training Loss = 109.80353
+Epoch [84/100] Step [60/92]: Training Loss = 109.80570
+Epoch [84/100] Step [70/92]: Training Loss = 109.79637
+Epoch [84/100] Step [80/92]: Training Loss = 109.80121
+Epoch [84/100] Step [90/92]: Training Loss = 109.80384
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [65.81 66.48 47.07 89.3  78.29 71.03 72.43 64.29 74.63 80.52 73.13 80.88]  -- mean :  71.99
+total     :  [65.81 66.48 47.07 89.3  78.29 71.03 72.43 64.29 74.63 80.52 73.13 80.88]  -- mean :  71.99
+
+Median Error
+mean      :  [17.33 19.87 33.45  8.49  5.    9.68 14.37 13.34 17.02 12.12  9.45 12.5 ]  -- mean :  14.38
+total     :  [17.33 19.87 33.45  8.49  5.    9.68 14.37 13.34 17.02 12.12  9.45 12.5 ]  -- mean :  14.38
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [65.8203125, 66.455078125, 47.0703125, 89.306640625, 78.271484375, 71.044921875, 72.412109375, 64.306640625, 74.609375, 80.517578125, 73.14453125, 80.859375]  ->  71.98486328125  %
+Type Median   :  [17.327, 19.874, 33.452, 8.485, 4.999, 9.683, 14.372, 13.343, 17.023, 12.124, 9.453, 12.501]  ->  14.386  degrees
+Type Loss     :  [61.70599545489301, 49.64246339064378, 45.040773203084754]  ->  156.38923204862155
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [85/100] Step [10/92]: Training Loss = 109.62866
+Epoch [85/100] Step [20/92]: Training Loss = 109.69372
+Epoch [85/100] Step [30/92]: Training Loss = 109.68738
+Epoch [85/100] Step [40/92]: Training Loss = 109.70839
+Epoch [85/100] Step [50/92]: Training Loss = 109.70191
+Epoch [85/100] Step [60/92]: Training Loss = 109.70164
+Epoch [85/100] Step [70/92]: Training Loss = 109.72115
+Epoch [85/100] Step [80/92]: Training Loss = 109.72631
+Epoch [85/100] Step [90/92]: Training Loss = 109.72420
+Epoch [86/100] Step [10/92]: Training Loss = 109.57330
+Epoch [86/100] Step [20/92]: Training Loss = 109.51870
+Epoch [86/100] Step [30/92]: Training Loss = 109.58727
+Epoch [86/100] Step [40/92]: Training Loss = 109.61945
+Epoch [86/100] Step [50/92]: Training Loss = 109.63394
+Epoch [86/100] Step [60/92]: Training Loss = 109.65335
+Epoch [86/100] Step [70/92]: Training Loss = 109.68461
+Epoch [86/100] Step [80/92]: Training Loss = 109.67813
+Epoch [86/100] Step [90/92]: Training Loss = 109.67476
+Epoch [87/100] Step [10/92]: Training Loss = 109.54930
+Epoch [87/100] Step [20/92]: Training Loss = 109.67589
+Epoch [87/100] Step [30/92]: Training Loss = 109.79107
+Epoch [87/100] Step [40/92]: Training Loss = 109.77691
+Epoch [87/100] Step [50/92]: Training Loss = 109.77169
+Epoch [87/100] Step [60/92]: Training Loss = 109.76899
+Epoch [87/100] Step [70/92]: Training Loss = 109.75886
+Epoch [87/100] Step [80/92]: Training Loss = 109.75454
+Epoch [87/100] Step [90/92]: Training Loss = 109.75020
+Epoch [88/100] Step [10/92]: Training Loss = 109.67048
+Epoch [88/100] Step [20/92]: Training Loss = 109.64692
+Epoch [88/100] Step [30/92]: Training Loss = 109.65883
+Epoch [88/100] Step [40/92]: Training Loss = 109.63414
+Epoch [88/100] Step [50/92]: Training Loss = 109.61845
+Epoch [88/100] Step [60/92]: Training Loss = 109.64179
+Epoch [88/100] Step [70/92]: Training Loss = 109.64473
+Epoch [88/100] Step [80/92]: Training Loss = 109.63817
+Epoch [88/100] Step [90/92]: Training Loss = 109.64546
+Epoch [89/100] Step [10/92]: Training Loss = 109.58394
+Epoch [89/100] Step [20/92]: Training Loss = 109.47932
+Epoch [89/100] Step [30/92]: Training Loss = 109.53546
+Epoch [89/100] Step [40/92]: Training Loss = 109.54988
+Epoch [89/100] Step [50/92]: Training Loss = 109.56761
+Epoch [89/100] Step [60/92]: Training Loss = 109.54741
+Epoch [89/100] Step [70/92]: Training Loss = 109.54945
+Epoch [89/100] Step [80/92]: Training Loss = 109.56450
+Epoch [89/100] Step [90/92]: Training Loss = 109.57228
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [67.67 65.92 49.47 88.84 76.87 72.21 71.22 63.03 71.98 78.65 69.73 79.33]  -- mean :  71.24
+total     :  [67.67 65.92 49.47 88.84 76.87 72.21 71.22 63.03 71.98 78.65 69.73 79.33]  -- mean :  71.24
+
+Median Error
+mean      :  [16.76 17.18 30.31  7.96  4.78  8.99 14.75 15.87 16.84 12.8  10.03 12.86]  -- mean :  14.09
+total     :  [16.76 17.18 30.31  7.96  4.78  8.99 14.75 15.87 16.84 12.8  10.03 12.86]  -- mean :  14.09
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [67.67578125, 65.91796875, 49.462890625, 88.818359375, 76.85546875, 72.216796875, 71.240234375, 63.037109375, 71.97265625, 78.662109375, 69.7265625, 79.345703125]  ->  71.24430338541667  %
+Type Median   :  [16.756, 17.181, 30.305, 7.957, 4.778, 8.988, 14.746, 15.873, 16.84, 12.798, 10.028, 12.858]  ->  14.092  degrees
+Type Loss     :  [61.9319940504137, 49.88494906582675, 45.162334777496675]  ->  156.97927789373713
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [90/100] Step [10/92]: Training Loss = 109.40288
+Epoch [90/100] Step [20/92]: Training Loss = 109.57943
+Epoch [90/100] Step [30/92]: Training Loss = 109.55968
+Epoch [90/100] Step [40/92]: Training Loss = 109.55501
+Epoch [90/100] Step [50/92]: Training Loss = 109.55750
+Epoch [90/100] Step [60/92]: Training Loss = 109.57039
+Epoch [90/100] Step [70/92]: Training Loss = 109.57110
+Epoch [90/100] Step [80/92]: Training Loss = 109.56755
+Epoch [90/100] Step [90/92]: Training Loss = 109.55907
+Epoch [91/100] Step [10/92]: Training Loss = 109.67465
+Epoch [91/100] Step [20/92]: Training Loss = 109.60198
+Epoch [91/100] Step [30/92]: Training Loss = 109.60652
+Epoch [91/100] Step [40/92]: Training Loss = 109.60800
+Epoch [91/100] Step [50/92]: Training Loss = 109.58492
+Epoch [91/100] Step [60/92]: Training Loss = 109.55042
+Epoch [91/100] Step [70/92]: Training Loss = 109.55731
+Epoch [91/100] Step [80/92]: Training Loss = 109.55837
+Epoch [91/100] Step [90/92]: Training Loss = 109.54121
+Epoch [92/100] Step [10/92]: Training Loss = 109.53801
+Epoch [92/100] Step [20/92]: Training Loss = 109.49028
+Epoch [92/100] Step [30/92]: Training Loss = 109.52065
+Epoch [92/100] Step [40/92]: Training Loss = 109.50418
+Epoch [92/100] Step [50/92]: Training Loss = 109.51584
+Epoch [92/100] Step [60/92]: Training Loss = 109.48827
+Epoch [92/100] Step [70/92]: Training Loss = 109.48451
+Epoch [92/100] Step [80/92]: Training Loss = 109.47402
+Epoch [92/100] Step [90/92]: Training Loss = 109.47661
+Epoch [93/100] Step [10/92]: Training Loss = 109.41317
+Epoch [93/100] Step [20/92]: Training Loss = 109.43899
+Epoch [93/100] Step [30/92]: Training Loss = 109.46162
+Epoch [93/100] Step [40/92]: Training Loss = 109.47719
+Epoch [93/100] Step [50/92]: Training Loss = 109.49713
+Epoch [93/100] Step [60/92]: Training Loss = 109.48257
+Epoch [93/100] Step [70/92]: Training Loss = 109.46261
+Epoch [93/100] Step [80/92]: Training Loss = 109.46106
+Epoch [93/100] Step [90/92]: Training Loss = 109.47947
+Epoch [94/100] Step [10/92]: Training Loss = 109.40365
+Epoch [94/100] Step [20/92]: Training Loss = 109.43717
+Epoch [94/100] Step [30/92]: Training Loss = 109.42305
+Epoch [94/100] Step [40/92]: Training Loss = 109.40142
+Epoch [94/100] Step [50/92]: Training Loss = 109.39626
+Epoch [94/100] Step [60/92]: Training Loss = 109.38214
+Epoch [94/100] Step [70/92]: Training Loss = 109.40347
+Epoch [94/100] Step [80/92]: Training Loss = 109.40675
+Epoch [94/100] Step [90/92]: Training Loss = 109.41249
+Evaluation of valid [0/91]
+Evaluation of valid [10/91]
+Evaluation of valid [20/91]
+Evaluation of valid [30/91]
+Evaluation of valid [40/91]
+Evaluation of valid [50/91]
+Evaluation of valid [60/91]
+Evaluation of valid [70/91]
+Evaluation of valid [80/91]
+Evaluation of valid [90/91]
+--------------------------------------------
+Accuracy
+mean      :  [65.58 67.89 49.2  89.61 81.14 71.57 72.11 64.29 72.57 78.28 70.07 81.14]  -- mean :  71.95
+total     :  [65.58 67.89 49.2  89.61 81.14 71.57 72.11 64.29 72.57 78.28 70.07 81.14]  -- mean :  71.95
+
+Median Error
+mean      :  [17.05 17.57 30.76  7.61  4.56  9.25 14.25 12.8  16.43 12.99  9.99 12.76]  -- mean :  13.84
+total     :  [17.05 17.57 30.76  7.61  4.56  9.25 14.25 12.8  16.43 12.99  9.99 12.76]  -- mean :  13.84
+--------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Type Acc_pi/6 :  [65.576171875, 67.87109375, 49.1943359375, 89.599609375, 81.15234375, 71.58203125, 72.119140625, 64.306640625, 72.55859375, 78.271484375, 70.068359375, 81.15234375]  ->  71.954345703125  %
+Type Median   :  [17.048, 17.569, 30.763, 7.614, 4.562, 9.246, 14.252, 12.803, 16.431, 12.987, 9.987, 12.76]  ->  13.835  degrees
+Type Loss     :  [61.79995086166885, 49.76628892500322, 45.13955281854986]  ->  156.70579260522192
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Epoch [95/100] Step [10/92]: Training Loss = 109.29968
+Epoch [95/100] Step [20/92]: Training Loss = 109.29891
+Epoch [95/100] Step [30/92]: Training Loss = 109.29505
+Epoch [95/100] Step [40/92]: Training Loss = 109.32126
+Epoch [95/100] Step [50/92]: Training Loss = 109.34518
+Epoch [95/100] Step [60/92]: Training Loss = 109.36842
+Epoch [95/100] Step [70/92]: Training Loss = 109.35870
+Epoch [95/100] Step [80/92]: Training Loss = 109.35815
+Epoch [95/100] Step [90/92]: Training Loss = 109.36442
+Epoch [96/100] Step [10/92]: Training Loss = 109.06315
+Epoch [96/100] Step [20/92]: Training Loss = 109.19514
+Epoch [96/100] Step [30/92]: Training Loss = 109.25016
+Epoch [96/100] Step [40/92]: Training Loss = 109.25826
+Epoch [96/100] Step [50/92]: Training Loss = 109.25108
+Epoch [96/100] Step [60/92]: Training Loss = 109.24500
+Epoch [96/100] Step [70/92]: Training Loss = 109.24915
+Epoch [96/100] Step [80/92]: Training Loss = 109.27243
+Epoch [96/100] Step [90/92]: Training Loss = 109.29865
+Epoch [97/100] Step [10/92]: Training Loss = 109.35697
+Epoch [97/100] Step [20/92]: Training Loss = 109.33851
+Epoch [97/100] Step [30/92]: Training Loss = 109.34945
+Epoch [97/100] Step [40/92]: Training Loss = 109.31248
+Epoch [97/100] Step [50/92]: Training Loss = 109.34466
+Epoch [97/100] Step [60/92]: Training Loss = 109.31489
+Epoch [97/100] Step [70/92]: Training Loss = 109.31945
+Epoch [97/100] Step [80/92]: Training Loss = 109.31892
+Epoch [97/100] Step [90/92]: Training Loss = 109.33315
+Epoch [98/100] Step [10/92]: Training Loss = 109.31802
+Epoch [98/100] Step [20/92]: Training Loss = 109.32396
+Epoch [98/100] Step [30/92]: Training Loss = 109.28749
+Epoch [98/100] Step [40/92]: Training Loss = 109.33035
+Epoch [98/100] Step [50/92]: Training Loss = 109.32494
+Epoch [98/100] Step [60/92]: Training Loss = 109.31294
+Epoch [98/100] Step [70/92]: Training Loss = 109.33372
+Epoch [98/100] Step [80/92]: Training Loss = 109.33038
+Epoch [98/100] Step [90/92]: Training Loss = 109.31131
+Epoch [99/100] Step [10/92]: Training Loss = 109.28198
+Epoch [99/100] Step [20/92]: Training Loss = 109.29480
+Epoch [99/100] Step [30/92]: Training Loss = 109.26186
+Epoch [99/100] Step [40/92]: Training Loss = 109.22792
+Epoch [99/100] Step [50/92]: Training Loss = 109.23704
+Epoch [99/100] Step [60/92]: Training Loss = 109.24711
+Epoch [99/100] Step [70/92]: Training Loss = 109.26654
+Epoch [99/100] Step [80/92]: Training Loss = 109.26594
+Epoch [99/100] Step [90/92]: Training Loss = 109.26557
+
+Process finished with exit code 0
